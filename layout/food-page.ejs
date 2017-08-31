@@ -10,10 +10,6 @@
     <div class="content">
         <div class="mw8 center">
                 <div class="w-100 fw3 lh-copy post-content">
-                  <section class="cf w-100 pa2-ns">
-                    <% page.items.forEach(function(item, index) { %>
-                        <%- partial('_partial/item-box', {item: item, index: index}) %>
-                    <% }); %>
                     <!-- Main Post Content -->
                     <%- page.content %>
                   </section>
